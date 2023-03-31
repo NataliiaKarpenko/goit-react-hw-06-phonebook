@@ -12,7 +12,6 @@ export const ContactsItem = ({ contactName, contactNumber, contactId }) => {
         <span className="name">{contactName}</span>:{' '}
         <span>{contactNumber}</span>
       </div>
-      {/* <button type="button" onClick={() => contactDelete()}> */}
       <button type="button" onClick={() => dispatch(deleteContact(contactId))}>
         Delete contact
       </button>

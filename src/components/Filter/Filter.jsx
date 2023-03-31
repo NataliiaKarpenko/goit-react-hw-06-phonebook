@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 
 import { FilterStyled } from './Filter.styled';
@@ -17,9 +16,4 @@ export const Filter = () => {
       />
     </FilterStyled>
   );
-};
-
-Filter.propTypes = {
-  value: PropTypes.string.isRequired,
-  contactFilter: PropTypes.func.isRequired,
 };
